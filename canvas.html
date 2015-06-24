@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Business Model Canvas</title>
+	
+	<!-- META DATA -->
+	<meta charset="UTF-8">
+	<meta name="description" content="Online Interactive Business Model Canvas">
+	<meta name="keywords" content="business,model,canvas">
+	<meta name="author" content="Rheisen Dennis">
+	
+	<!-- Stylehsheet(s) -->
+	<link rel="stylesheet" type="text/css" href="file/style/css/model-style.css" />
+	<link rel="stylesheet" type="text/css" href="file/style/font-awesome/css/font-awesome.min.css"/>
+	
+	<!-- Javascript Libraries -->
+	<script type="text/javascript" src="file/script/jquery.min.js"></script>
+	<script type="text/javascript" src="file/script/backbone.min.js"></script>
+	<script type="text/javascript" src="file/script/flowtype.js"></script>
+</head>
+
+<body>
+	<div id="canvas-wrapper">
+		<div class="row row-1">
+			<section class="key-partners full-box">
+				<section class="box-header">
+					<i class="fa fa-users fa-lg"></i>
+					<h2>Key Partners</h2>
+				</section>
+				<textarea class="key-partners-area text-area" autocomplete="off" id="key-partners-text" placeholder="Insert Key Partner Information..."></textarea>
+			</section>
+		</div>
+		
+		<div class="row row-2">
+			<section class="key-activities half-box-top">
+				<section class="box-header">
+					<i class="fa fa-cogs fa-lg"></i>
+					<h2>Key Activities</h2>
+				</section>
+				<textarea class="key-activities-area text-area" autocomplete="off" id="key-activities-text" placeholder="Insert Key Activity Information..."></textarea>
+			</section>
+			
+			<section class="key-resources half-box-bottom">
+				<section class="box-header">
+					<i class="fa fa-area-chart fa-lg"></i>
+					<h2>Key Resources</h2>
+				</section>
+				<textarea class="key-resources-area text-area" autocomplete="off" id="key-resources-text" placeholder="Insert Key Resources Information..."></textarea>
+			</section>
+		</div>
+		
+		<div class="row row-3">
+			<section class="value-proposition full-box">
+				<section class="box-header">
+					<i class="fa fa-money fa-lg"></i>
+					<h2>Value Proposition</h2>
+				</section>
+				<textarea class="value-proposition-area text-area" autocomplete="off" id="value-proposition-text" placeholder="Insert Value Proposition Information..."></textarea>
+			</section>
+		</div>
+		
+		<div class="row row-4">
+			<section class="customer-relationships half-box-top">
+				<section class="box-header">
+					<i class="fa fa-heart fa-lg"></i>
+					<h2>Customer Relationships</h2>
+				</section>
+				<textarea class="customer-relationships-area text-area" autocomplete="off" id="customer-relationships-text" placeholder="Insert Customer Relationships Information..."></textarea>
+			</section>
+			
+			<section class="channels half-box-bottom">
+				<section class="box-header">
+					<i class="fa fa-truck fa-lg"></i>
+					<h2>Channels</h2>
+				</section>
+				<textarea class="channels-area text-area" autocomplete="off" id="channels-text" placeholder="Insert Channels Information..."></textarea>
+			</section>
+		</div>
+		
+		<div class="row row-5">
+			<section class="customer-segments full-box">
+				<section class="box-header">
+					<i class="fa fa-user fa-lg"></i>
+					<h2>Customer Segments</h2>
+				</section>
+				<textarea class="customer-segments-area text-area" autocomplete="off" id="customer-segments-text" placeholder="Insert Customer Segments Information..."></textarea>
+			</section>
+		</div>
+		
+		<div class="column column-1">
+			<section class="cost-structure full-horizontal-box">
+				<section class="box-header">
+					<i class="fa fa-file-text fa-lg"></i>
+					<h2>Cost Structure</h2>
+				</section>
+				<textarea class="cost-structure-area text-area" autocomplete="off" id="cost-structure-text" placeholder="Insert Cost Structure Information..."></textarea>
+			</section>
+		</div>
+		
+		<div class="column column-2">
+			<section class="revenue-streams full-horizontal-box">
+				<section class="box-header">
+					<i class="fa fa-calculator fa-lg"></i>
+					<h2>Revenue Streams</h2>
+				</section>
+				<textarea class="revenue-streams-area text-area" autocomplete="off" id="revenue-streams-text" placeholder="Insert Revenue Streams Information..."></textarea>
+			</section>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="file/script/canvas-script.js"></script>
+</body>
+
+</html>
