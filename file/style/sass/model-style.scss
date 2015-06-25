@@ -20,12 +20,12 @@ body {
 
 /* ROW & COLUMN CSS */
 #canvas-wrapper {
+	float:left;
 	box-sizing:border-box;
 	margin:5vh 2.5vw 5vh 2.5vw;
 	width:95vw;
 	height:90vh; 
 	background-color:white;
-	float:left;
 	-webkit-box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.5);
 	-moz-box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.5);
 	box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.5);
